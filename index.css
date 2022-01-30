@@ -1,0 +1,465 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0%;
+  height: 100%;
+}
+header {
+  position: sticky;
+  top: 0;
+}
+#header {
+  display: flex;
+  padding-bottom: 13px;
+  align-items: center;
+  padding-top: 3px;
+  flex-direction: row;
+  background-color: rgb(51, 51, 51);
+}
+#logo {
+  margin-left: 220px;
+  height: 20px;
+  margin-top: 8px;
+}
+
+#hList {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  cursor: pointer;
+  color: RGB(182, 186, 183);
+  margin-top: 10px;
+  font-size: small;
+}
+/* #store{
+  color: rgb(245, 245, 247);
+}
+#mac{
+  color: rgb(245, 245, 247);
+}
+#ipad{
+  color: rgb(245, 245, 247);
+}
+#iphone{} */
+.list {
+  margin-left: 43px;
+}
+.list:hover {
+  color: rgb(245, 245, 247);
+}
+#glass {
+  margin-top: 10px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+#shop {
+  margin-top: 10px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+#jon {
+  color: white;
+  margin-top: 600px;
+  margin-left: 150px;
+  font-size: 40px;
+}
+
+#Text1 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+  color: rgb(29, 29, 31);
+}
+#textDiv {
+  background-color: rgb(245, 245, 247);
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+#Text2 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+}
+#iphone {
+  text-align: center;
+  font-size: 54px;
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  font-weight: 500;
+}
+#shoponline {
+  color: rgb(0, 102, 204);
+  text-decoration: none;
+}
+#shoponline:hover {
+  text-decoration: underline;
+}
+#stores {
+  color: rgb(0, 102, 204);
+  text-decoration: none;
+}
+#stores:hover {
+  text-decoration: underline;
+}
+#learnmore {
+  color: rgb(0, 102, 204);
+  text-decoration: none;
+}
+#learnmore:hover {
+  text-decoration: underline;
+}
+#ohText {
+  justify-content: center;
+  display: flex;
+  font-size: 30px;
+}
+#learnmid {
+  color: rgb(0, 102, 204);
+  text-decoration: none;
+}
+#learnmid:hover {
+  text-decoration: underline;
+}
+#buymid {
+  margin-left: 40px;
+  color: rgb(0, 102, 204);
+  text-decoration: none;
+}
+#buymid:hover {
+  text-decoration: underline;
+}
+
+#mid {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 21px;
+}
+.bg-image {
+  margin-top: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.img1 {
+  background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.img2 {
+  background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_small_2x.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.img3 {
+  background-image: url(https://www.iphonelife.com/sites/iphonelife.com/files/styles/full_width_wide_2x/public/blog_top_image_applewatch72x.jpg?itok=098nDJdt);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.img4 {
+  background-image: url(https://www.apple.com/v/home/aj/images/promos/apple-fitness-plus-winter/tile_winter__bpktzwl6hsc2_small_2x.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.img5 {
+  background-image: url(https://www.apple.com/v/home/aj/images/promos/macbook-pro/tile_macbookpro__cx0ur0qg9biq_small_2x.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+#img45 {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-right: 10px;
+}
+.img6 {
+  background-image: url(https://www.apple.com/v/home/aj/images/promos/valentines-day/promo_vday22__oz9b5x4x7ney_small_2x.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.img7 {
+  background-image: url(https://www.apple.com/v/home/aj/images/promos/tv-plus-jon-hamm/tile_jon_hamm__dofs2fkb2ueu_small_2x.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+hr {
+  border: 5px solid white;
+}
+#img67 {
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-right: 10px;
+}
+.img8 {
+  background-image: url(https://www.apple.com/v/home/aj/images/promos/apple-card-january/tile_apple_card__cwonh0wb00om_small_2x.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+#img88 {
+  background-image: url(https://www.apple.com/v/home/aj/images/logos/apple-card-january/tile_logo_apple_card__ev6ksc3n0p0m_medium_2x.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.img9 {
+  background-image: url(https://www.apple.com/v/home/aj/images/promos/arcade-extreme-tennis/tile_arcade__ewkth5cd0wia_small_2x.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: relative;
+}
+#arcade {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 290px;
+  height: 60px;
+  margin-top: 40px;
+}
+#arcadeBigText {
+  text-align: center;
+  display: block;
+  font-size: 40px;
+  margin-top: 10px;
+  font-size: 35px;
+}
+#card {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%;
+  width: 190px;
+  height: 60px;
+  margin-top: 50px;
+}
+#fitness {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 190px;
+  height: 40px;
+  margin-top: 80px;
+}
+#img89 {
+  display: flex;
+  margin-right: 10px;
+}
+#allfooter {
+  background-color: rgb(245, 245, 247);
+  border-color: rgb(51, 51, 51);
+}
+
+#footer {
+  margin: 0 auto;
+  position: relative;
+  max-width: 1080px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgb(210, 210, 215);
+}
+
+.footertext {
+  margin-top: 10px;
+  color: rgb(110, 110, 115);
+  font-size: 13px;
+  width: 1000px;
+  margin-bottom: 16px;
+}
+
+#lastfootertext {
+  margin-top: 10px;
+}
+.columnfooter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+#bigcolumn {
+  display: flex;
+  flex-direction: row;
+}
+#services {
+  margin-left: 100px;
+}
+#applestore {
+  margin-left: 60px;
+}
+#forbusiness {
+  margin-left: 60px;
+}
+#applevalues {
+  margin-left: 60px;
+}
+.alltext {
+  margin-top: 10px;
+  font-family: 'SF Pro Text', 'Myriad Set Pro', 'SF Pro Icons',
+    'Apple Legacy Chevron', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 13px;
+  color: rgb(66, 66, 69);
+}
+.alltext:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.imgText {
+  font-size: 19px;
+  font-weight: 400;
+  text-align: center;
+  display: block;
+  padding: 10px 230px 0;
+}
+#destroy {
+  text-align: center;
+  display: block;
+  padding: 10px 230px 0;
+  font-size: 18px;
+}
+.imgBigText {
+  text-align: center;
+  display: block;
+  margin-top: 12%;
+  font-size: 40px;
+}
+#cardBigText {
+  text-align: center;
+  display: block;
+  font-size: 25px;
+  padding: 10px 160px 0;
+}
+#cardText {
+  text-align: center;
+  display: block;
+  margin-top: 8px;
+}
+.buttonsDiv {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  text-decoration: none;
+  color: rgb(0, 102, 204);
+  text-align: center;
+}
+#firstButton {
+  margin-left: 249px;
+}
+#secondButton {
+  margin-left: 35px;
+}
+#fourthButton {
+  margin-left: 330px;
+  font-size: 18px;
+}
+#fifthButton {
+  margin-left: 258px;
+}
+#seventhButton {
+  margin-left: 270px;
+}
+#eigthButton {
+  margin-left: 20px;
+}
+#sixthButton {
+  margin-left: 23px;
+}
+#lastButton {
+  margin-left: 258px;
+  color: white;
+}
+#last2Button {
+  margin-left: 23px;
+  color: white;
+}
+#valentine {
+  margin-top: 65px;
+  color: rgb(96, 45, 98);
+  font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica,
+    Arial, sans-serif;
+}
+#say {
+  margin-top: 0%;
+  padding: 10px 200px 0;
+  color: rgb(96, 45, 98);
+  letter-spacing: -1px;
+}
+.button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.boldtext {
+  margin-top: 25px;
+  font-family: 'Pro Text', 'Myriad Set Pro', 'SF Pro Icons';
+  color: rgb(29, 29, 31);
+}
+#lastfooter {
+  border-top: 1px solid rgb(210, 210, 215);
+  display: flex;
+  flex-direction: row;
+}
+#privacy {
+  margin-left: 13px;
+}
+.copyrightfooter {
+  margin-left: 15px;
+}
+#copyrightlastfooter {
+  margin: 0 auto;
+  position: relative;
+  max-width: 1080px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  color: rgb(110, 110, 115);
+  font-size: 13px;
+}
+#united {
+  margin-left: 270px;
+  margin-top: 7px;
+}
+#copyrightfooter2 {
+  color: rgb(66, 66, 69);
+  font-size: 14px;
+}
+#copyrightfooter2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+  color: rgb(0, 102, 204);
+}
+.link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.foot {
+  margin-top: 10px;
+}
+#oml {
+  margin-top: 5.8px;
+}
+#oml2 {
+  margin-top: 5.8px;
+}
+#oml3 {
+  margin-bottom: 10px;
+}
